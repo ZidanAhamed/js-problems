@@ -118,3 +118,83 @@
 
 
 
+// // Part 1 - practice tasks
+// 
+// task 1
+
+// function celsiusToFarenheit(celsius){
+//     const farenheit = (celsius * 1.8) + 32;
+//     return farenheit;
+// }
+
+// const farenheits = celsiusToFarenheit(100);
+// console.log(farenheits);
+
+
+// Task 2 
+// 
+
+
+
+// // Math.max 
+
+// const max = Math.max(10,123,34,2,455,6456,77,5,4,423)
+
+// console.log('The biggest number is:', max);
+// function getMaxThree(num1, num2, num3) {
+//     if (num1 > num2 && num1 > num3) {
+//         return "Num1 is the boss";
+//     }
+//     else {
+//         if (num2 > num1 && num2 > num3) {
+//             return "Num2 is the boss"
+//         }
+//         else {
+//             return "Num3 is the boss"
+//         }
+//     }
+// }
+
+// const boss = getMaxThree(217, 129, 32);
+// console.log('so the conclusion is :', boss);
+
+
+// // Height calculator (Max height)
+
+// const heights = [12, 30, 56, 77, 88, 34, 55]
+
+// function getMin (numbers){
+//     let min = numbers[0];
+// for(const num of numbers){
+//     if(num < min){
+//         min = num;
+//     }
+// }
+// return min;
+// }
+
+// const min = getMin(heights);
+// console.log('Smallest number is', min);
+
+// // shopping list calculator (Add and multiplication)
+// function  shoppingList (shirtQ,pantQ,shoesQ){
+// const shirtP = 500;
+// const pantP = 700;
+// const shoesP = 1000;
+
+// const totalShirtPrice = shirtQ * shirtP;
+// const totalPantPrice = pantQ * pantP;
+// const totalShoesPrice = shoesQ * shoesP;
+
+// const totalShoppingPrice = totalPantPrice + totalShirtPrice + totalShoesPrice;
+
+// return totalShoppingPrice;
+
+// }
+
+// const spent = shoppingList(4,2,2);
+// console.log('Total spent this Eid on shopping is' , spent);
+
+
+
+
