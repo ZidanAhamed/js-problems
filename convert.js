@@ -197,4 +197,92 @@
 
 
 
+// // Shopping cart price calculator
+// const products = [
+//     { name: 'Sunglass', price: 1200, quantity: 2 },
+//     { name: 'Watch', price: 1500, quantity: 1 },
+//     { name: 'Facewash', price: 800, quantity: 1 },
+//     { name: 'Underwear', price: 400, quantity: 5 },
+// ]
 
+// function cartTotal(products) {
+//     let total = 0;
+//     for (const product of products) {
+//         total = total + product.price * product.quantity;
+//     }
+//     return total;
+// }
+
+// const shoppingCost = cartTotal(products);
+// console.log(shoppingCost);
+
+
+// // Layered discount 
+// function layeredDiscountTotal(quantity) {
+//     const first100Price = 90;
+//     const second100Price = 60;
+//     const above200Price = 40;
+
+//     if (quantity <= 100) {
+//         const total = quantity * first100Price;
+//         return total;
+//     }
+
+//     else if (quantity <= 200) {
+//         const first100Total = 100 * first100Price;
+//         const remainingQuantity = quantity - 100;
+//         const remainingTotal = remainingQuantity * second100Price;
+//         const total = first100Total + remainingTotal;
+//         return total;
+//     }
+//     else{
+//         const first100Total = 100 * first100Price;
+//         const second100Total = 100 * second100Price;
+//         const remainingQuantity = quantity - 200;
+//         const remainingTotal = remainingQuantity * above200Price;
+//         const total = first100Total + second100Total + remainingTotal;
+//         return total;
+//     }
+
+// }
+// const TotalDiscountedPrice = layeredDiscountTotal(1000);
+// console.log(TotalDiscountedPrice);
+
+
+// // simple calculator, function inside of a function
+
+// function add(num1, num2) {
+//     return num1 + num2;
+// }
+// function subtract(num1, num2) {
+//     return num1 - num2;
+// }
+// function multiply(num1, num2) {
+//     return num1 * num2;
+// }
+// function divide(num1, num2) {
+//     return num1 / num2;
+// }
+
+
+// function calculator(a, b, operation) {
+//     if (operation === 'add') {
+//         const result = add(a, b);
+//         return result;
+//     }
+//     else if (operation === 'subtract') {
+//         const result = subtract(a, b);
+//         return result;
+//     }
+//     else if (operation === 'multiply') {
+//         const result = multiply(a, b);
+//         return result;
+//     }
+//     else if (operation === 'divide') {
+//         const result = divide(a, b);
+//         return result;
+//     }
+// }
+
+// const result = calculator(10, 12, 'divide');
+// console.log(result);
